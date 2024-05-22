@@ -2,7 +2,7 @@ pipeline {
 
      agent { 
         node {
-            label 'custom-jenkins-agent-phyton'
+            label 'alex-jenkins-alpine-new'
             }
       }
   stages {
