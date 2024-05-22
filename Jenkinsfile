@@ -16,6 +16,8 @@ pipeline {
                 echo "Building.."
                 sh '''
                pip --version
+               pip list
+               pip install fire
                 '''
             }
         }
