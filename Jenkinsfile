@@ -1,5 +1,10 @@
 pipeline {
-  agent any
+
+     agent { 
+        node {
+            label 'custom-jenkins-agent-phyton'
+            }
+      }
   stages {
     stage('version') {
       steps {
